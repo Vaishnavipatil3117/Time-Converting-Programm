@@ -21,6 +21,6 @@ public class Time {
         System.out.print("Enter time in 12-hour format (hh:mm:ss AM/PM): ");
         String time = sc.nextLine();
         String time1 = convertTime(time);
-        System.out.println("The military time is: " + time1);
+        System.out.println("The time is: " + time1);
     }
 }
