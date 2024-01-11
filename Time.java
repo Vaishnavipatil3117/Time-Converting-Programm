@@ -18,9 +18,9 @@ public class Time {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter time in 12-hour format (hh:mm:ss AM/PM): ");
+        System.out.print("Enter time in 12-hour format (hour:minute:second AM/PM): ");
         String time = sc.nextLine();
         String time1 = convertTime(time);
-        System.out.println("The time is: " + time1);
+        System.out.println("The 24-hour format time is: " + time1);
     }
 }
